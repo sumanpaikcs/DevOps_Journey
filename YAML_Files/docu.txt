@@ -1,0 +1,24 @@
+Introduction
+Syntax
+properties/Datatypes
+YAML Tools
+
+
+
+YAML is a data serialization language that is often used for writing configuration files. Depending on whom you ask, YAML stands for yet another markup language or YAML ain't markup language (a recursive acronym), which emphasizes that YAML is for data, not documents.
+
+YAML = yaml int mark up laguage
+It's    data format used to exchange data
+Similar to XML & Json
+Data Serialisation : 
+
+
+
+
+in yaml there exist :
+key ----> values
+
+like
+
+1: "this is my roll number"
+"apple" : "this is apple"

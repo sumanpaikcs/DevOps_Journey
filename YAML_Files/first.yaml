@@ -1,0 +1,25 @@
+# Three documents that is sepereted by " --- "
+"vscode" :  "used for writing codes"
+1: "this is the first count"
+---
+# lists
+- apple
+- mango
+- banana
+- Apple
+# yaml is case sensitive
+---
+cities:
+ - Kolkata
+ - Mumbai
+ - Noida
+---
+cities: [Kolkata, Mumbai, Delhi] 
+---
+{mango: yellow fruit, age: 23}
+---
+
+# yaml Lint to cheak run or not
+
+# for ending the documet " ... "
+...

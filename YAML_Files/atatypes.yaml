@@ -1,0 +1,45 @@
+# strings in yaml
+name: Suman Paik
+fruit: "apple"
+job: "sde"
+
+bio: |
+this is suman paik.
+this is me.
+
+# write a single line in multiple line
+message: >
+this will be a
+like a 
+single line
+
+# same as
+message: !!str this will eb a like a single line
+
+number: 34323
+marks: 432432.234
+booleanValue: yes #n,N, false, False, FALSE.....same as true
+
+# "yaml lint"  cheaking yaml tool
+
+# specify the type
+zero: !!int 0
+positiveNum: !!int 23
+negativeNum: !!int -23
+binaryNum: 0b11001
+octalNum: 06423
+hexa: 0x45
+commaValue: !!int +540_000 #540,000
+exponential num: 5.0234E34
+
+# Foating point number
+marks: !!float 34.55
+infinite: !!float .inf
+not a num: .nan
+
+# null
+surname: !!null Null #or null NULL 
+
+# dates and time 
+date: 2000-12-22
+# google it 
